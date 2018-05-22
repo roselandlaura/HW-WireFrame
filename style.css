@@ -1,0 +1,95 @@
+body {
+	background-color: gray;
+	color: gray;
+}
+
+.grid {
+	width: 80%;
+	grid-template-rows: repeat(3, 100px);
+	grid-template-columns: 60% 37.5%;
+	margin: 0 auto;
+	margin-top: 20px;
+	display: grid;
+	grid-gap: 2.5%;
+}
+
+header {
+	height: 100px;
+	line-height: 100px;
+	width: 80%;
+	background-color: white;
+	text-align: center;
+	margin: 0 auto;
+}
+
+nav {
+	height: 100px;
+	line-height: 100px;
+	width: 80%;
+	background-color: white;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+
+h1 {
+	background-color: white;
+	color: gray;
+	margin: 10px;
+}
+
+p {
+	background-color: white;
+	color: gray;	
+	margin: 10px;
+}
+
+.section {
+	grid-column-start:1;
+	grid-column-end:2;
+	grid-row-start:1;
+	grid-row-end:4;
+	background-color: white;
+	text-align: center;
+	padding-top: 30px;
+}
+
+.article {
+	background-color: gray;
+	color: white;
+	margin-top: 20px;
+	margin: 10px;
+	height: 190px;
+	padding-top: 15px;
+	padding-bottom: 20px;
+}
+
+.aside {
+	grid-column-start:2;
+	grid-column-end:3;
+	grid-row-start:1;
+	grid-row-end:4;
+	background-color: white;
+	text-align: center;
+	padding-top: 50px;
+}
+
+.h1-container {
+	padding-top: 15px;
+	line-height: 65px;
+}
+
+.p-container {
+	line-height: 65px;
+}
+
+
+footer {
+	height: 100px;
+	line-height: 100px;
+	width: 80%;
+	background-color: white;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 20px;
+}
